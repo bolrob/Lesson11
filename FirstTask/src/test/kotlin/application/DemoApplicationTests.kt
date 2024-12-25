@@ -13,7 +13,7 @@ import org.springframework.http.HttpStatusCode
 @SpringBootTest
 class DemoApplicationTests {
     @Autowired
-//    @MockBean
+//    @MockBean f
     private lateinit var userClient: UserClient
 
     @Test
