@@ -6,7 +6,7 @@ import application.dto.RequestUser
 import org.springframework.cloud.openfeign.FeignClient
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.*
-
+//f
 @FeignClient(name = "userClient", url = "http://localhost:8080/")
 interface UserClient {
 
